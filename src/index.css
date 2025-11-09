@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+
+.br {
+
+   background: linear-gradient(-45deg, #81689D, #E493B3, #FFF4F4,#ffffff);
+        background-size: 200% 200%;
+    animation: moveColors 10s ease infinite;
+    padding: 10px;
+}
+
+
+  @keyframes moveColors {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+.disply {
+  display: hidden;
+}
